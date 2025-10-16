@@ -1,5 +1,5 @@
 const apiKey = "4184f09fb80de96d3bdffffa10515377"; // Ganti API key kamu
-const popularCities = ["Jakarta", "New York", "Tokyo", "London", "Bejing", "Praha", "Barcelona", "Seoul", "Kamboja", "Bangkok"];
+const popularCities = ["Jakarta", "New York", "Tokyo", "London", "Bejing", "Praha", "Barcelona", "Seoul", "Kamboja", "Bangkok","Madrid"];
 
 window.onload = () => {
   displayPopularCities();
@@ -97,3 +97,4 @@ function applySavedTheme() {
     document.body.classList.add("dark-mode");
   }
 }
+
