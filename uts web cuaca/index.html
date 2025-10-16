@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuaca Hari Ini 🌤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="top-bar">
+      <div class="datetime" id="dateTime"></div>
+      <button class="dark-mode-btn" onclick="toggleDarkMode()">🌓</button>
+    </div>
+
+    <h1>🌍 Cuaca Dunia</h1>
+
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Cari kota...">
+      <button onclick="searchCity()">Cari</button>
+    </div>
+
+    <div class="city-grid" id="cityContainer">
+      <!-- Kota populer akan muncul di sini -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
